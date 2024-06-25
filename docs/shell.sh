@@ -1,0 +1,1 @@
+ls /storage/self/primary

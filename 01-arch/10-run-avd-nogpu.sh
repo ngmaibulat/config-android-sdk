@@ -10,5 +10,5 @@ avdmanager list avd
 
 # Run the AVD
 # emulator -avd $name -no-snapshot -no-boot-anim -no-audio -no-window -gpu off
-emulator -avd $name -gpu on -no-boot-anim
+emulator -avd $name -gpu off -no-boot-anim
 

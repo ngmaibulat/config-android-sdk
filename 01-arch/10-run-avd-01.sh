@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name=$1
+name="avd-01"
 
 export ANDROID_AVD_HOME=$HOME/.config/.android/avd
 export ANDROID_SDK_HOME=/opt/android-sdk

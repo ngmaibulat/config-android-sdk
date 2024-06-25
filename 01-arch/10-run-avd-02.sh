@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name=$1
+name="avd-02"
 
 export ANDROID_AVD_HOME=$HOME/.config/.android/avd
 export ANDROID_SDK_HOME=/opt/android-sdk
@@ -10,5 +10,4 @@ avdmanager list avd
 
 # Run the AVD
 # emulator -avd $name -no-snapshot -no-boot-anim -no-audio -no-window -gpu off
-emulator -avd $name -gpu on -no-boot-anim
-
+emulator -avd $name -gpu on
